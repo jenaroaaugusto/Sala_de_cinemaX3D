@@ -6,33 +6,146 @@
   <head>
   </head> scale= '0.5 0.5 0.5'
   <Scene>  
+   <Background skyColor="1 1 1"/>
     <!-- Topo da cadeira -->
     <Transform 
-      translation = '0.0 2.0 0.0'  rotation = '1.0 0.0 0.0  4.71'
+      translation = '0.0 4.0 0.0'  rotation = '1.0 0.0 0.0  -4.71'
     >
       <Shape>
           <Appearance>
             <Material>
-
             </Material>
+             <ImageTexture url='"9649-Aveludado-Vermelho.jpg"'></ImageTexture>
           </Appearance>
-          <Cylinder height= '0.5' radius= '1.0'></Cylinder>
+          <Cylinder height= '0.495' radius= '1.0051' ></Cylinder>
           
       </Shape>
     </Transform>
     <!-- Encosto da cadeira -->
-    <Transform translation = '0.0 1.0 0.0'>
+    <Transform translation = '0.0 3.0 0.0'>
       <Shape>
           <Appearance>
             <Material>
 
             </Material>
+             <ImageTexture url='"9649-Aveludado-Vermelho.jpg"'></ImageTexture>
           </Appearance>
     
-          <Box size='2.0 2.0 0.5'></Box>
+          <Box size='2.0 2.0 0.495'></Box>
        </Shape>
     </Transform>
-   
+    <!-- Assento 1 -->
+    <Transform translation = '0.0 2.0 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"couro.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='1.95 1.95 0.25'></Box>
+      
+      </Shape>
+    </Transform>
+     <!-- Assento 2 -->
+    <Transform translation = '0.0 1.9 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"couro.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='2.0 2.0 0.25'></Box>
+      
+      </Shape>
+    </Transform>
     
+    <!-- Braço esquerdo -->
+    <Transform translation = '-1.0 2.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='0.1 2.0 1.0'></Box>
+      
+      </Shape>
+    </Transform>
+    <!-- Braço Direito -->
+    <Transform translation = '1.0 2.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='0.1 2.0 1.0'></Box>
+      
+      </Shape>
+    </Transform>
+    <!-- Braço esquerdo topo  rotation = '1.0 0.0 0.0  4.71'-->
+    <Transform translation = '-1.10 2.75 1.25' > 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='0.3 0.1 2.0'></Box>
+      
+      </Shape>
+    </Transform>
+    <!-- Braço Direito topo  -->
+    <Transform translation = '1.10 2.75 1.25' > 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
+          </Appearance>
+
+          <Box size='0.3 0.1 2.0'></Box>
+      
+      </Shape>
+    </Transform>
+    <!-- Braço esquerdo copo  rotation = '1.0 0.0 0.0  4.71'-->
+    <Transform translation = '-1.10 2.70 2.4' > 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <!-- <ImageTexture url='"plástico-preto.jpg"'></ImageTexture> -->
+          </Appearance>
+
+          <!-- <Box size='0.3 0.1 2.0'></Box> top='false' -->
+          <Cylinder height= '0.3' radius= '0.2'  ></Cylinder>
+      </Shape>
+    </Transform>
+    <!-- Braço direito copo  rotation = '1.0 0.0 0.0  4.71'-->
+    <Transform translation = '1.10 2.70 2.4' > 
+      <Shape>
+        <Appearance>
+            <Material>
+
+            </Material>
+             <!-- <ImageTexture url='"plástico-preto.jpg"'></ImageTexture> -->
+          </Appearance>
+
+          <!-- <Box size='0.3 0.1 2.0'></Box> top='false' -->
+          <Cylinder height= '0.3' radius= '0.2'  ></Cylinder>
+      </Shape>
+    </Transform>
   </Scene>
   </X3D>
