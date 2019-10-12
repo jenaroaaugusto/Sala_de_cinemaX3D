@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding ='UTF-8'?>
 <!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
-  "http://www.web3d.org/specifications/x3d-3.0.dtd">
+  "http://www.web3d.org/specifications/je/je/x3d-3.0.dtd">
   <X3D profile='Immersive' version='3.0'>
   # A Cylinder
   <head>
-  </head> scale= '0.5 0.5 0.5'
+  </head> 
+  <!-- scale= '0.5 0.5 0.5' -->
   <Scene>  
    <Background skyColor="1 1 1"/>
    <Group >
+   <Transform scale='1.0 1.0 1.0 '>
     <!-- Topo da cadeira -->
-    <Transform 
-      translation = '0.0 4.0 0.0'  rotation = '1.0 0.0 0.0  -4.71'
-    >
+    <Transform translation = '0.0 4.0 0.0'  rotation = '1.0 0.0 0.0  -4.71'>
       <Shape>
           <Appearance>
             <Material>
@@ -35,49 +35,68 @@
           <Box size='2.0 2.0 0.495'></Box>
        </Shape>
     </Transform>
-    <!-- Assento 1 -->
-    <Transform translation = '0.0 2.0 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+    <!-- Cilintro de "rotação"  -->
+    <Transform translation = '0.0 2.0 0.0' rotation = '0.0 0.0 1.0  1.5708'>
       <Shape>
-        <Appearance>
+          <Appearance>
             <Material>
 
             </Material>
-             <ImageTexture url='"couro.jpg"'></ImageTexture>
+             <ImageTexture url='"9649-Aveludado-Vermelho.jpg"'></ImageTexture>
           </Appearance>
-
-          <Box size='1.95 1.95 0.25'></Box>
-      
-      </Shape>
-    </Transform>
-     <!-- Assento 2 -->
-    <Transform translation = '0.0 1.9 1.0' rotation = '1.0 0.0 0.0  4.71'> 
-      <Shape>
-        <Appearance>
-            <Material>
-
-            </Material>
-             <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
-          </Appearance>
-
-          <Box size='2.0 2.0 0.25'></Box>
-      
-      </Shape>
-    </Transform>
-     <!-- Assento ponta -->
-    <Transform translation = '0.0 1.96 1.93' rotation = '0.0 0.0 1.0  1.5708'> 
-      <Shape>
-        <Appearance>
-            <Material>
-
-            </Material>
-             <ImageTexture url='"couro.jpg"'></ImageTexture>
-          </Appearance>
-          <Cylinder height= '1.9' radius= '0.18' ></Cylinder>
-          <!-- <Box size='2.0 2.0 0.25'></Box> -->
-      
-      </Shape>
-    </Transform>
     
+         <Cylinder height= '2.0' radius= '0.25' ></Cylinder>
+       </Shape>
+    </Transform>  
+
+    <!-- Animação da cadeira -->
+    <!-- <Transform DEF='XForm'> -->
+      <!-- Assento 1 -->
+      <Transform translation = '0.0 2.0 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+        <Shape>
+          <Appearance>
+              <Material>
+
+              </Material>
+              <ImageTexture url='"couro.jpg"'></ImageTexture>
+            </Appearance>
+
+            <Box size='1.95 1.95 0.25'></Box>
+        
+        </Shape>
+      </Transform>
+      <!-- Assento 2 -->
+      <Transform translation = '0.0 1.9 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+        <Shape>
+          <Appearance>
+              <Material>
+
+              </Material>
+              <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
+            </Appearance>
+
+            <Box size='2.0 2.0 0.25'></Box>
+        
+        </Shape>
+      </Transform>
+      <!-- Assento ponta -->
+      <Transform translation = '0.0 1.96 1.93' rotation = '0.0 0.0 1.0  1.5708'> 
+        <Shape>
+          <Appearance>
+              <Material>
+
+              </Material>
+              <ImageTexture url='"couro.jpg"'></ImageTexture>
+            </Appearance>
+            <Cylinder height= '1.9' radius= '0.18' ></Cylinder>
+            <!-- <Box size='2.0 2.0 0.25'></Box> -->
+        
+        </Shape>
+      </Transform>
+    <!-- </Transform> -->
+    <!-- <ROUTE fromNode='Clicker' fromField='touchTime' toNode='TimeSource' toField='startTime'/>
+    <ROUTE fromNode='TimeSource' fromField='fraction_changed' toNode='Animation' toField='set_fraction'/>
+    <ROUTE fromNode='Animation' fromField='value_changed' toNode='XForm' toField='rotation'/> -->
     <!-- Braço esquerdo -->
     <Transform translation = '-1.0 2.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
       <Shape>
@@ -222,6 +241,8 @@
           <!-- <Cylinder height= '0.3' radius= '0.2'  ></Cylinder> -->
       </Shape>
     </Transform>
+    </Transform>
     </Group>
+    
   </Scene>
   </X3D>
