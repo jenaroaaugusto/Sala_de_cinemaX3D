@@ -47,7 +47,35 @@
     
          <Cylinder height= '2.0' radius= '0.25' ></Cylinder>
        </Shape>
-    </Transform>  
+    </Transform>
+    <!-- Cilintro de "rotação"  lado direito   -->
+    '1.0 2.25 1.0' 
+    <Transform translation = '1.0 2.0 0.0' rotation = '0.0 0.0 1.0  1.5708'>
+      <Shape>
+          <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"malha-roma-preto.jpg"'></ImageTexture>
+          </Appearance>
+    
+         <Cylinder height= '0.2' radius= '0.26' ></Cylinder>
+       </Shape>
+    </Transform> 
+    <!-- Cilintro de "rotação"  lado esquerdo  -->
+    '1.0 2.25 1.0' 
+    <Transform translation = '-1.0 2.0 0.0' rotation = '0.0 0.0 1.0  1.5708'>
+      <Shape>
+          <Appearance>
+            <Material>
+
+            </Material>
+             <ImageTexture url='"malha-roma-preto.jpg"'></ImageTexture>
+          </Appearance>
+    
+         <Cylinder height= '0.2' radius= '0.26' ></Cylinder>
+       </Shape>
+    </Transform>   
 
     <!-- Animação da cadeira -->
     <!-- <Transform DEF='XForm'> -->
