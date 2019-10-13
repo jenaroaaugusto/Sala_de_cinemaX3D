@@ -126,7 +126,7 @@
     <ROUTE fromNode='TimeSource' fromField='fraction_changed' toNode='Animation' toField='set_fraction'/>
     <ROUTE fromNode='Animation' fromField='value_changed' toNode='XForm' toField='rotation'/> -->
     <!-- Braço esquerdo -->
-    <Transform translation = '-1.0 1.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+    <!-- <Transform translation = '-1.0 1.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
       <Shape>
         <Appearance>
             <Material>
@@ -138,7 +138,7 @@
           <Box size='0.1 2.0 1.0'></Box>
       
       </Shape>
-    </Transform>
+    </Transform> -->
     <!-- Braço Direito -->
     <Transform translation = '1.0 1.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
       <Shape>
@@ -154,7 +154,7 @@
       </Shape>
     </Transform>
     <!-- Braço esquerdo topo  rotation = '1.0 0.0 0.0  4.71'-->
-    <Transform translation = '-1.10 1.75 1.25' > 
+    <!-- <Transform translation = '-1.10 1.75 1.25' > 
       <Shape>
         <Appearance>
             <Material>
@@ -166,9 +166,9 @@
           <Box size='0.3 0.1 2.0'></Box>
       
       </Shape>
-    </Transform>
+    </Transform> -->
     <!-- Braço Direito topo  -->
-    <Transform translation = '1.10 1.75 1.25' > 
+    <Transform translation = '1.0 1.75 1.25' > 
       <Shape>
         <Appearance>
             <Material>
@@ -177,12 +177,12 @@
              <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
           </Appearance>
 
-          <Box size='0.3 0.1 2.0'></Box>
+          <Box size='0.4 0.1 2.0'></Box>
       
       </Shape>
     </Transform>
     <!-- Braço esquerdo copo  rotation = '1.0 0.0 0.0  4.71'-->
-    <Transform translation = '-1.10 1.70 2.4' > 
+    <!-- <Transform translation = '-1.10 1.70 2.4' > 
       <Shape>
         <Appearance>
             <Material>
@@ -191,12 +191,12 @@
              <ImageTexture url='"plástico-preto.jpg"'></ImageTexture>
           </Appearance>
 
-          <!-- <Box size='0.3 0.1 2.0'></Box> top='false' -->
+          
           <Cylinder height= '0.3' radius= '0.2'  ></Cylinder>
       </Shape>
-    </Transform>
+    </Transform> -->
     <!-- Braço direito copo  rotation = '1.0 0.0 0.0  4.71'-->
-    <Transform translation = '1.10 1.70 2.4' > 
+    <Transform translation = '1.0 1.70 2.4' > 
       <Shape>
         <Appearance>
             <Material>

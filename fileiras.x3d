@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding ='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.0.dtd">
+  <X3D profile='Immersive' version='3.0'>
+  # A Cylinder
+  <head>
+  </head>
+  <Scene>
+    <Background skyColor="1 1 1"/>
+    <!-- <Transform scale='0.2 0.2 0.2 '> -->
+            
+    <!-- Fileira -->
+        <Transform translation = '4.0 0.0 1.0' >
+            <Shape>
+                <Appearance>
+                <Material >
+                    
+                </Material>
+                <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='12.50 0.12 3.0'></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '0.0 0.057  0.0'>
+            <Inline url='"Cadeira_dois_encosto.x3d"'></Inline>
+        </Transform>
+        <Transform translation = '2.025 0.057  0.0'>
+            <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
+        </Transform>
+         <Transform translation = '4.030 0.057  0.0'>
+            <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
+        </Transform>
+         <Transform translation = '6.035 0.057  0.0'>
+            <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
+        </Transform>
+         <Transform translation = '8.040 0.057  0.0'>
+            <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
+        </Transform>
+    <!-- </Transform> -->
+  </Scene>
+  </X3D>
