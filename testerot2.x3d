@@ -15,24 +15,26 @@
 </head>
 <Scene>
   <!-- ROUTE information for XForm node:  [from Animation.value_changed to rotation rotation= '0.0 1.0 0.0 -4.71'] -->
-  <Transform translation= '0.0 0.0 0.0'  DEF='XForm'>
-    <Shape>
-      <Box size='0.2 0.6 0.6'/>
-      <Appearance>
-      <Material diffuseColor='1.0 0.0 0.0'/>
-      </Appearance>
-    </Shape>
-    <!-- ROUTE information for Clicker node:  [from touchTime to TimeSource.startTime ] -->
-    <TouchSensor DEF='Clicker' description='click to animate'/>
-    <!-- ROUTE information for TimeSource node:  [from Clicker.touchTime to startTime ] [from fraction_changed to Animation.set_fraction ] -->
-    <TimeSensor DEF='TimeSource' cycleInterval='1.0'/>
-    <!-- ROUTE information for Animation node:  [from TimeSource.fraction_changed to set_fraction ] 1.0 0.0 1.0 0' [from value_changed to XForm.rotation 0.0 1.0 0.0 4.2,  0.0 1.0 0.0 0.0' ] -->
-    <OrientationInterpolator DEF='Animation' key='0.0 0.2 ' keyValue= '0.0 1.0 0.0 0, 
-                                                                        1.0 0.0 0.0 1.5708, 
-                                                                        0.0 1.0 0.0 0,' />
-  </Transform>
-  <ROUTE fromNode='Clicker' fromField='touchTime' toNode='TimeSource' toField='startTime'/>
-  <ROUTE fromNode='TimeSource' fromField='fraction_changed' toNode='Animation' toField='set_fraction'/>
-  <ROUTE fromNode='Animation' fromField='value_changed' toNode='XForm' toField='rotation'/>
+    <Transform DEF='XForm'>
+     
+      <Transform translation= '0.0 1.0 0.0'>
+        <Shape>
+          <Box size='2.0 2.0 2.0'/>
+          <Appearance>
+          <Material diffuseColor='1.0 0.0 0.0'/>
+          </Appearance>
+        </Shape>
+      </Transform>
+
+    </Transform>
+
+ 
+
+  <TouchSensor DEF='Touch'></TouchSensor>
+	<TimeSensor DEF='Timer' loop='false' startTime='0.0' cycleInterval='1.0'></TimeSensor>
+	<OrientationInterpolator DEF='Rot' key='0.0, 0.5, 1.0' keyValue='1.0 0.0 0.0 1.5708, 1.0 0.0 0.0 0.785398, 1.0 0.0 0.0 1.5708'></OrientationInterpolator>
+	<ROUTE fromNode='Touch' fromField='touchTime' toNode='Timer' toField='startTime'></ROUTE>
+	<ROUTE fromNode='Timer' fromField='fraction_changed' toNode='Rot' toField='set_fraction'></ROUTE>
+	<ROUTE fromNode='Rot' fromField='value_changed' toNode='XForm' toField='rotation'></ROUTE>
 </Scene>
 </X3D>
