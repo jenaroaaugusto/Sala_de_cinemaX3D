@@ -19,7 +19,7 @@
      
       <Transform translation= '0.0 1.0 0.0'>
         <Shape>
-          <Box size='2.0 2.0 2.0'/>
+          <Box size='1.95 1.95 0.25'/>
           <Appearance>
           <Material diffuseColor='1.0 0.0 0.0'/>
           </Appearance>
@@ -31,8 +31,8 @@
  
 
   <TouchSensor DEF='Touch'></TouchSensor>
-	<TimeSensor DEF='Timer' loop='false' startTime='0.0' cycleInterval='1.0'></TimeSensor>
-	<OrientationInterpolator DEF='Rot' key='0.0, 0.5, 1.0' keyValue='1.0 0.0 0.0 1.5708, 1.0 0.0 0.0 0.785398, 1.0 0.0 0.0 1.5708'></OrientationInterpolator>
+	<TimeSensor DEF='Timer' loop='false' startTime='0.0' cycleInterval='2.0'></TimeSensor>
+	<OrientationInterpolator DEF='Rot' key='0.0, 0.5, 1.0' keyValue='0.0 0.0 0.0 0, 1.0 0.0 0.0 0.785398, 1.0 0.0 0.0 1.5708'></OrientationInterpolator>
 	<ROUTE fromNode='Touch' fromField='touchTime' toNode='Timer' toField='startTime'></ROUTE>
 	<ROUTE fromNode='Timer' fromField='fraction_changed' toNode='Rot' toField='set_fraction'></ROUTE>
 	<ROUTE fromNode='Rot' fromField='value_changed' toNode='XForm' toField='rotation'></ROUTE>

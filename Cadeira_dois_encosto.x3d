@@ -78,53 +78,60 @@
     </Transform>   
 
     <!-- Animação da cadeira -->
-    <!-- <Transform DEF='XForm'> -->
-      <!-- Assento 1 -->
-      <Transform translation = '0.0 1.0 1.0' rotation = '1.0 0.0 0.0  4.71'> 
-        <Shape>
-          <Appearance>
-              <Material>
+    <!-- <Transform DEF='XForm'>
+      <Transform translation= '0.0 1.0 1.0' rotation = '1.0 0.0 0.0 4.71239'> -->
+        <!-- <Transform translation= '0.0 0.0 0.0'> -->
+          <!-- Assento 1 -->
+          <Transform translation = '0.0 1.0 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+            <Shape>
+              <Appearance>
+                  <Material>
 
-              </Material>
-              <ImageTexture url='"couro.jpg"'></ImageTexture>
-            </Appearance>
+                  </Material>
+                  <ImageTexture url='"couro.jpg"'></ImageTexture>
+                </Appearance>
 
-            <Box size='1.95 1.95 0.25'></Box>
-        
-        </Shape>
-      </Transform>
-      <!-- Assento 2 -->
-      <Transform translation = '0.0 0.9 1.0' rotation = '1.0 0.0 0.0  4.71'> 
-        <Shape>
-          <Appearance>
-              <Material>
+                <Box size='1.95 1.95 0.25'></Box>
+            
+            </Shape>
+          </Transform>
+          <!-- Assento 2 -->
+          <Transform translation = '0.0 0.9 1.0' rotation = '1.0 0.0 0.0  4.71'> 
+            <Shape>
+              <Appearance>
+                  <Material>
 
-              </Material>
-              <ImageTexture url='"plastico-preto.jpg"'></ImageTexture>
-            </Appearance>
+                  </Material>
+                  <ImageTexture url='"plastico-preto.jpg"'></ImageTexture>
+                </Appearance>
 
-            <Box size='2.0 2.0 0.25'></Box>
-        
-        </Shape>
-      </Transform>
-      <!-- Assento ponta -->
-      <Transform translation = '0.0 0.96 1.93' rotation = '0.0 0.0 1.0  1.5708'> 
-        <Shape>
-          <Appearance>
-              <Material>
+                <Box size='2.0 2.0 0.25'></Box>
+            
+            </Shape>
+          </Transform>
+          <!-- Assento ponta -->
+          <Transform translation = '0.0 0.96 1.93' rotation = '0.0 0.0 1.0  1.5708'> 
+            <Shape>
+              <Appearance>
+                  <Material>
 
-              </Material>
-              <ImageTexture url='"couro.jpg"'></ImageTexture>
-            </Appearance>
-            <Cylinder height= '1.9' radius= '0.18' ></Cylinder>
-            <!-- <Box size='2.0 2.0 0.25'></Box> -->
-        
-        </Shape>
-      </Transform>
-    <!-- </Transform> -->
-    <!-- <ROUTE fromNode='Clicker' fromField='touchTime' toNode='TimeSource' toField='startTime'/>
-    <ROUTE fromNode='TimeSource' fromField='fraction_changed' toNode='Animation' toField='set_fraction'/>
-    <ROUTE fromNode='Animation' fromField='value_changed' toNode='XForm' toField='rotation'/> -->
+                  </Material>
+                  <ImageTexture url='"couro.jpg"'></ImageTexture>
+                </Appearance>
+                <Cylinder height= '1.9' radius= '0.18' ></Cylinder>
+                <!-- <Box size='2.0 2.0 0.25'></Box> -->
+            
+            </Shape>
+          </Transform>
+        <!-- </Transform> -->
+      <!-- </Transform>
+    </Transform> -->
+      <!-- <TouchSensor DEF='Touch'></TouchSensor>
+      <TimeSensor DEF='Timer' loop='false' startTime='0.0' cycleInterval='4.0'></TimeSensor>
+      <OrientationInterpolator DEF='Rot' key='0.0, 0.5, 1.0' keyValue='0.0 1.0 0.0 0.0, 0.0 0.0 -1.0 0.0, 1.0 0.0 0.0 1.5708'></OrientationInterpolator>
+      <ROUTE fromNode='Touch' fromField='touchTime' toNode='Timer' toField='startTime'></ROUTE>
+      <ROUTE fromNode='Timer' fromField='fraction_changed' toNode='Rot' toField='set_fraction'></ROUTE>
+      <ROUTE fromNode='Rot' fromField='value_changed' toNode='XForm' toField='rotation'></ROUTE> -->
     <!-- Braço esquerdo -->
     <Transform translation = '-1.0 1.25 1.0' rotation = '1.0 0.0 0.0  4.71'> 
       <Shape>
