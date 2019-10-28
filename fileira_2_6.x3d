@@ -21,11 +21,7 @@
                   <Box size='15.0 0.12 8.0'></Box>
             </Shape>
         </Transform>
-<<<<<<< HEAD
         <Transform translation = '12.4 -2.5 1.0' 
-=======
-        <Transform translation = '11.4 -2.5 1.0' 
->>>>>>> master
         rotation = '0.0 0.0 1.0 1.55 '> 
             <Shape>
                 <Appearance>
@@ -37,11 +33,7 @@
                 <Box size='5.0 0.12 8.0'></Box>
             </Shape>
         </Transform>
-<<<<<<< HEAD
           <Transform translation = '-2.6 -2.5 1.0' 
-=======
-          <Transform translation = '-3.6 -2.5 1.0' 
->>>>>>> master
         rotation = '0.0 0.0 1.0 1.55 '> 
             <Shape>
                 <Appearance>
