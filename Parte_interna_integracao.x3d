@@ -52,7 +52,42 @@
         </Transform>
         <Transform translation = '12.0 0.0  11.5'>
             <Inline url='"sala_de_cinema.x3d"'></Inline>
-        </Transform>            
+        </Transform>
+        <!-- Andar Superior  -->
+        <Transform translation = '0.0 4.0 0.0'>
+            <!-- <Transform scale='0.2 0.2 0.2 '> -->
+            <!-- <Transform translation = '6.5 0.0  1.0'> -->
+            <!-- Lado esquerdo -->
+                <Transform translation = '0.0 0.0  0.0'>
+                    <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform>
+                <!-- <Transform translation = '0.0 -1.2  3.0'>
+                    <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform>
+                <Transform translation = '0.0 -2.2  6.0'>
+                <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform> -->
+
+                <!-- Central -->
+                <!-- <Transform translation = '6.0 0.0  0.0'>
+                    <Inline url='"sala_de_cinema_2.x3d"'></Inline>
+                </Transform> -->
+            
+
+                <!-- Lado Direito -->
+                <!-- <Transform translation = '12.0 0.0  0.0'>
+                    <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform> -->
+                <!-- <Transform translation = '12.0 -1.2  3.0'>
+                    <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform> -->
+                <!-- <Transform translation = '12.0 -2.2  6.0'>
+                    <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+                </Transform> -->
+                    
+             <!-- </Transform> -->
+        </Transform>
+        <!-- Parede fim da sala -->
     </Transform>
   </Scene>
   </X3D>

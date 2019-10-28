@@ -8,20 +8,6 @@
   <Scene>
     <Background skyColor="1 1 1"/>
     <Transform scale='0.2 0.2 0.2 '>
-        <!-- <Transform translation = '0.0 0.0 0.0' > 
-            <Shape>
-                <Appearance>
-                    <Material>
-
-                    </Material>
-                    <ImageTexture url='"malha-roma-preto.jpg"'></ImageTexture>
-                </Appearance>
-
-                <Box size='4.0 4.02 4.0'></Box> 
-                
-            </Shape>
-        </Transform> -->
-        <!-- rotation= '1.0 0.0 0.0  0,436332' -->
         <Transform translation = '0.0 0.0 0.0'  >
             <Shape>
                 <Appearance>
