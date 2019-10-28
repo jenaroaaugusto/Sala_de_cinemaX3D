@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding ='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.0.dtd">
+  <X3D profile='Immersive' version='3.0'>
+  # A Cylinder
+  <head>
+  </head>
+  <Scene>
+    <Background skyColor="1 1 1"/>
+    <Transform scale='0.2 0.2 0.2 '>
+        <!-- <Transform translation = '0.0 0.0 0.0' > 
+            <Shape>
+                <Appearance>
+                    <Material>
+
+                    </Material>
+                    <ImageTexture url='"malha-roma-preto.jpg"'></ImageTexture>
+                </Appearance>
+
+                <Box size='4.0 4.02 4.0'></Box> 
+                
+            </Shape>
+        </Transform> -->
+        <!-- rotation= '1.0 0.0 0.0  0,436332' -->
+        <Transform translation = '0.0 0.0 0.0'  >
+            <Shape>
+                <Appearance>
+                <Material >
+                    
+                </Material>
+                <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                    <IndexedFaceSet
+                    coordIndex= '3 2 1 0 -1 ' >
+                    <Coordinate point=' 0.0 0.05 0.0,
+                                        20.0 0.05 0.0,
+                                        20.0 0.05 20.0,
+                                        0.0 0.05 20.0
+                    
+
+                    
+                                                
+                                                '
+                    ></Coordinate>
+                    </IndexedFaceSet>
+            </Shape>
+            
+        
+            <Transform translation = '5.0 6.0  1.0'>
+                <Inline url='"fileira_10.x3d"'></Inline>
+            </Transform>
+            <Transform translation = '5.0 4.0  6.0'>
+                <Inline url='"fileira_10.x3d"'></Inline>
+            </Transform>
+            <Transform translation = '5.0 2.0  11.0'>
+                <Inline url='"fileira_10.x3d"'></Inline>
+            </Transform>
+            <Transform translation = '5.0 0.0  16.0'>
+                <Inline url='"fileira_10.x3d"'></Inline>
+            </Transform>
+        </Transform >
+    </Transform>
+  </Scene>
+  </X3D>
