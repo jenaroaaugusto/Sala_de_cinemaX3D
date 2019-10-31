@@ -7,7 +7,7 @@
   </head>
   <Scene>
     <Background skyColor="1 1 1"/>
-    <Transform scale='0.2 0.2 0.2 '>
+    <Transform scale='0.90 0.90 0.90'>
     <!-- <Transform translation = '6.5 0.0  1.0'> -->
     <!-- Lado esquerdo -->
         <Transform translation = '0.0 0.0  0.0'>
