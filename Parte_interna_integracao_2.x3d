@@ -7,8 +7,9 @@
   </head>
   <Scene>
     <Background skyColor="1 1 1"/>
-    <Transform scale='0.90 0.90 0.90'>
-    <!-- <Transform translation = '6.5 0.0  1.0'> -->
+    <!-- scale='0.90 0.90 0.90' -->
+    <Transform  scale='1.0 1.0 1.0' >
+    
     <!-- Lado esquerdo -->
         <Transform translation = '0.0 0.0  0.0'>
             <Inline url='"sala_de_cinema_10.x3d"'></Inline>
@@ -30,15 +31,17 @@
      
 
         <!-- Lado Direito -->
-        <Transform translation = '12.0 0.0  0.0'>
+        <Transform translation = '11.0 0.0  0.0'>
             <Inline url='"sala_de_cinema_10.x3d"'></Inline>
         </Transform>
-        <Transform translation = '12.0 -1.2  3.0'>
+        <Transform translation = '11.0 -1.2  3.0'>
             <Inline url='"sala_de_cinema_10.x3d"'></Inline>
         </Transform>
-         <Transform translation = '12.0 -2.2  6.0'>
+         <Transform translation = '11.0 -2.2  6.0'>
         <Inline url='"sala_de_cinema_10.x3d"'></Inline>
         </Transform>
+
+
         <!-- Parade lado esquerdo -->
         <Transform translation='-0.2 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
             <Shape>
@@ -48,11 +51,11 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='7.0 0.12 13.0'></Box>
+                <Box size='6.0 0.12 13.0'></Box>
             </Shape>
         </Transform>
         <!-- Parade lado direito -->
-        <Transform translation='16.2 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
+        <Transform translation='16.3 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -60,11 +63,11 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='7.0 0.12 13.0'></Box>
+                <Box size='6.0 0.12 13.0'></Box>
             </Shape>
         </Transform>
            <!-- Rampa lado esquerdo -->
-        <Transform translation='5.46 -1.0 5.95' rotation = '1.0 0.0 0.0  0.349066'>
+        <Transform translation='5.6 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -72,11 +75,11 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='2.95 0.12 12.1'></Box>
+                <Box size='2.5 0.12 12.1'></Box>
             </Shape>
         </Transform>
         <!-- Rampa lado direito -->
-        <Transform translation='11.0 -1.0 5.95' rotation = '1.0 0.0 0.0  0.349066'>
+        <Transform translation='11.0 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -84,7 +87,7 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='2.95 0.12 11.95'></Box>
+                <Box size='2.5 0.12 11.5'></Box>
             </Shape>
         </Transform>
         <!-- Rampa de Acesso -->           
@@ -108,7 +111,19 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='16.4 0.13 3.0'></Box>
+                <Box size='16.5 0.13 3.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Topo da escadas -->
+        <Transform translation='8.0 1.15 0.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.13 1.0'></Box>
             </Shape>
         </Transform>
         <!-- Grade -->
@@ -118,12 +133,12 @@
                     <Material transparency  = '0.5' >
                         
                     </Material>
-                    <!-- <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture> -->
+                    
                 </Appearance>
-                <Box size='16.4 1.230.15'></Box>
+                <Box size='16.5 1.230 0.15'></Box>
             </Shape>
         </Transform>
-
+        <!-- Barra sobre a grade -->
          <Transform translation='8.0 -0.9 12.3997' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
@@ -132,10 +147,22 @@
                     </Material>
                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='16.4 0.2 0.25'></Box>
+                <Box size='16.5 0.1 0.25'></Box>
             </Shape>
         </Transform>
-
+        <!-- Base do andar frontal-->
+        <!-- rotation = '1.0 0.0 0.0  0.698132' -->
+          <Transform translation='8.0 -2.64 12.45' >
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 1.0 0.15'></Box>
+            </Shape>
+        </Transform>
         
 
     </Transform>

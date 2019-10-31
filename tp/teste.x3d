@@ -853,6 +853,7 @@
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.0 0.7 0.0'/>
+                    <!-- <ImageTexture  url='"test4.PNG"'/> -->
                 </Appearance>
                 <Box size = '0.75 16.0 0.4 '></Box>
             </Shape>
@@ -861,7 +862,7 @@
             <Shape>
                 <Appearance>
                     <Material />
-                    <ImageTexture  url='"test4.PNG""test4.PNG"'/>
+                    <ImageTexture  url='"test4.PNG"'/>
 
                 </Appearance>
                 <Box size = '3.8 4.8 0.25 '></Box>
@@ -871,7 +872,7 @@
             <Shape>
                 <Appearance>
                     <Material />
-                    <ImageTexture  url='"123.png""123.png"'/>
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '6.85 4.8 0.4 '></Box>
             </Shape>
@@ -935,7 +936,8 @@
          <Transform translation = '0 15.3 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/> -->
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '6.85 4.8 0.4 '></Box>
             </Shape>
@@ -967,7 +969,8 @@
         <Transform translation = '0 18.4 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/> -->
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '6.85 1 0.4 '></Box>
             </Shape>
@@ -1023,7 +1026,9 @@
         <Transform translation = '4.8 15.3 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/>
+                     -->
+                     <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '3.8 4.8 0.25 '></Box>
             </Shape>
@@ -1031,7 +1036,8 @@
         <Transform translation = '-4.8 15.3 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/> -->
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '3.8 4.8 0.25 '></Box>
             </Shape>
@@ -1047,7 +1053,8 @@
           <Transform translation = '4.8 18.4 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/> -->
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '3.8 1 0.4 '></Box>
             </Shape>
@@ -1055,7 +1062,8 @@
          <Transform translation = '-4.8 18.4 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/> -->
+                    <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '3.8 1 0.4 '></Box>
             </Shape>
@@ -1452,7 +1460,9 @@
         <Transform translation = '-4.8 10.1 0'>
             <Shape>
                 <Appearance>
-                    <Material diffuseColor='1.0 0.0 1.0'/>
+                    <!-- <Material diffuseColor='1.0 0.0 1.0'/>
+                     -->
+                     <ImageTexture  url='"test4.PNG"'/>
                 </Appearance>
                 <Box size = '3.8 4.8 0.25 '></Box>
             </Shape>
