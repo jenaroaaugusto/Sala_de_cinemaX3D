@@ -73,7 +73,7 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                   <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='2.5 0.12 12.1'></Box>
             </Shape>
@@ -87,23 +87,118 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='2.5 0.12 11.5'></Box>
             </Shape>
         </Transform>
         <!-- Rampa de Acesso -->           
-        <Transform translation='8.3 -2.25 5.0' rotation = '1.0 0.0 0.0  0.0'>
+        <Transform translation='8.3 -2.26 5.0' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='3.0 0.13 10.0'></Box>
             </Shape>
         </Transform>
+        <!-- Rampa de Acesso teto -->           
+        <Transform translation='8.25 -0.2 3.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 0.02 2.3'></Box>
+            </Shape>
+        </Transform>
+
+           <!-- Rampa de Acesso teto ponta-->           
+        <Transform translation='8.23 -0.1 4.15' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='2.9 0.3 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Luz Rampa -->
+        <Transform translation='8.23 -0.3 3.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Cone height='0.1' bottomRadius='0.05'></Cone>
+               
+            </Shape>
+             <SpotLight
+                    location = '0.0 -0.1 0.0'
+                    direction = '0.0 -1.0 0.0'
+                    intensity = '1.0'
+                    color = '1.0 1.0 1.0'
+                ></SpotLight>
+                <!-- color = '1.0 1.0 1.0' -->
+        </Transform>
+        <!-- Parede esquerda rampa -->
+        <Transform translation='6.8 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 3.0 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Este Ovo -->
+        <Transform translation='6.9 -1.0 3.0' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"joker.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+
+        <!-- Parede Direito rampa -->
+        <Transform translation='9.76 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 3.0 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Este Ovo -->
+        <Transform translation='9.75 -1.0 3.0' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"exterminador.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+
          <!-- Base da escadas -->
         <Transform translation='8.0 -2.25 11.0' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
@@ -111,7 +206,7 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                    <ImageTexture url='"madeira_escura.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='16.5 0.13 3.0'></Box>
             </Shape>
@@ -123,7 +218,7 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='16.5 0.13 1.0'></Box>
             </Shape>
