@@ -62,7 +62,7 @@
         <!-- Parte externa  -->
 
        <!-- Parede fim esquerdo -->
-        <Transform translation = '1.5 2.75 -1.0'>
+        <Transform translation = '1.5 1.8 -1.0'>
            <Shape>
                 <Appearance>
                     <Material >
@@ -70,11 +70,11 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.00 6.0 0.2'></Box>
+                <Box size='3.00 4.0 0.2'></Box>
             </Shape>
         </Transform>
          <!-- Parede fim centro-->
-        <Transform translation = '8.0 2.75 -1.0'>
+        <Transform translation = '8.0 1.8 -1.0'>
            <Shape>
                 <Appearance>
                     <Material >
@@ -82,12 +82,12 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='6.00 6.0 0.2'></Box>
+                <Box size='6.00 4.0 0.2'></Box>
             </Shape>
         </Transform>
 
          <!-- Parede fim direito-->
-        <Transform translation = '14.5 2.75 -1.0'>
+        <Transform translation = '14.5 1.8  -1.0'>
            <Shape>
                 <Appearance>
                     <Material >
@@ -95,11 +95,11 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.00 6.0 0.2'></Box>
+                <Box size='3.00 4.0 0.2'></Box>
             </Shape>
         </Transform>
          <!-- Parede angulo direita-->
-        <Transform translation = '13.5 3.5 -1.0' rotation = '0.0 0.0 1.0  0.959931'>
+        <Transform translation = '13.5 1.9 -1.0' rotation = '0.0 0.0 1.0  0.959931'>
            <Shape>
                 <Appearance>
                     <Material >
@@ -112,7 +112,7 @@
         </Transform>
         <!-- Topos -->
 
-        <Transform translation = '12.0 5.0 -1.0' rotation = '0.0 0.0 1.0  0'>
+        <Transform translation = '12.0 3.2 -1.0' rotation = '0.0 0.0 1.0  0'>
            <Shape>
                 <Appearance>
                     <Material >
@@ -120,7 +120,7 @@
                     </Material>
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.0 1.5 0.2'></Box>
+                <Box size='3.0 1.2 0.2'></Box>
             </Shape>
         </Transform>
         <!-- Piso 1 -->
