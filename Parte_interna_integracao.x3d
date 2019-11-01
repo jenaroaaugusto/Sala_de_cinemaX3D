@@ -56,9 +56,9 @@
 
 
         <!-- Andar Superior  -->
-          <!-- <Transform translation = '0.0 7.0 -8.0'  >
+          <Transform translation = '0.0 7.5 -8.0'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
-        </Transform>     -->
+        </Transform>    
         <!-- Parte externa  -->
 
        <!-- Parede fim esquerdo -->
