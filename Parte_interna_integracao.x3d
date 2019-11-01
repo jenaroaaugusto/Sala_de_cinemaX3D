@@ -56,9 +56,9 @@
 
 
         <!-- Andar Superior  -->
-          <Transform translation = '0.0 7.5 -8.0'  >
+          <!-- <Transform translation = '0.0 7.5 -8.0'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
-        </Transform>    
+        </Transform>     -->
         <!-- Parte externa  -->
 
        <!-- Parede fim esquerdo -->
@@ -121,6 +121,54 @@
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='3.0 1.5 0.2'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 1 -->
+        <Transform translation = '5.0 -0.2 4.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='10.0 0.1 10.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 2 -->
+          <Transform translation = '11.0 -0.2 4.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='10.0 0.1 10.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 3 -->
+          <Transform translation = '8.0 -0.2 10.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.2 0.1 5.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 4 -->
+        <Transform translation = '8.0 -0.2 15.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.2 0.1 5.0'></Box>
             </Shape>
         </Transform>
     </Transform>
