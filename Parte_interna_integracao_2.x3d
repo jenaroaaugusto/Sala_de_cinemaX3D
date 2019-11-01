@@ -78,6 +78,8 @@
                 <Box size='2.5 0.12 12.1'></Box>
             </Shape>
         </Transform>
+        
+
         <!-- Rampa lado direito -->
         <Transform translation='11.0 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
             <Shape>
@@ -136,6 +138,42 @@
                     
                 </Appearance>
                 <Box size='16.5 1.230 0.15'></Box>
+            </Shape>
+        </Transform>
+        <!-- Grade 2 -->
+        <Transform translation='8.27 0.3 4.0997' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='3.05 0.530 0.15'></Box>
+            </Shape>
+        </Transform>
+         <!-- Grade 3 -->
+        <Transform translation='6.9 -0.8 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='5.50 2.530 0.15'></Box>
+            </Shape>
+        </Transform>
+          <!-- Grade 4 -->
+        <Transform translation='9.8 -0.8 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='5.50 2.530 0.15'></Box>
             </Shape>
         </Transform>
         <!-- Barra sobre a grade -->
