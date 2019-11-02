@@ -43,7 +43,7 @@
 
 
         <!-- Parade lado esquerdo -->
-        <Transform translation='-0.2 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
+        <!-- <Transform translation='-0.2 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -53,9 +53,9 @@
                 </Appearance>
                 <Box size='6.0 0.12 13.0'></Box>
             </Shape>
-        </Transform>
+        </Transform> -->
         <!-- Parade lado direito -->
-        <Transform translation='16.3 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
+        <!-- <Transform translation='16.3 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -65,7 +65,7 @@
                 </Appearance>
                 <Box size='6.0 0.12 13.0'></Box>
             </Shape>
-        </Transform>
+        </Transform> -->
            <!-- Rampa lado esquerdo -->
         <Transform translation='5.6 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
             <Shape>

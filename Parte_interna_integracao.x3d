@@ -56,9 +56,14 @@
 
 
         <!-- Andar Superior  -->
-          <!-- <Transform translation = '0.0 7.5 -8.0'  >
+          <Transform translation = '0.5 7.5 -7.0' scale='0.91 0.90 0.91'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
-        </Transform>     -->
+        </Transform>    
+        <!-- Frente -->
+        <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
+            <Inline url='"frente.x3d"'></Inline>
+        </Transform>
+
         <!-- Parte externa  -->
 
        <!-- Parede fim esquerdo -->
@@ -171,6 +176,8 @@
                 <Box size='16.2 0.1 5.0'></Box>
             </Shape>
         </Transform>
+
+        
     </Transform>
   </Scene>
   </X3D>
