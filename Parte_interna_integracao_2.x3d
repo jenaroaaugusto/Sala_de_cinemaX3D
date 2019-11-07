@@ -7,9 +7,9 @@
   </head>
   <Scene>
 <!-- 3.14 -->
-<Viewpoint DEF='LookAtHouse'
+<!-- <Viewpoint DEF='LookAtHouse'
     position='8 -1 10'
-    orientation='0 1 0 0'/>
+    orientation='0 1 0 0'/> -->
     <!-- <NavigationInfo
         type='"WALK", "ANY"'
         avatarSize='0.25, 1.6, 0.75'
