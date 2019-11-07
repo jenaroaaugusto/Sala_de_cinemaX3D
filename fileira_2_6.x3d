@@ -45,7 +45,7 @@
                 <Box size='5.0 0.12 8.0'></Box>
             </Shape>
         </Transform>
-         <Transform translation = '0.0 0.057  0.0'>
+         <!-- <Transform translation = '0.0 0.057  0.0'>
             <Inline url='"Cadeira_dois_encosto.x3d"'></Inline>
         </Transform>
         <Transform translation = '2.025 0.057  0.0'>
@@ -62,7 +62,7 @@
         </Transform>
         <Transform translation = '10.045 0.057  0.0'>
             <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
-        </Transform>
+        </Transform> -->
         
     <!-- </Transform> -->
   </Scene>

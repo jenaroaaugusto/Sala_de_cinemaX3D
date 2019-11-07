@@ -6,6 +6,15 @@
   <head>
   </head>
   <Scene>
+<!-- 3.14 -->
+<Viewpoint DEF='LookAtHouse'
+    position='8 -1 10'
+    orientation='0 1 0 0'/>
+    <!-- <NavigationInfo
+        type='"WALK", "ANY"'
+        avatarSize='0.25, 1.6, 0.75'
+        speed='1.0'
+        headlight='true'/> -->
     <Background skyColor="1 1 1"/>
     <!-- scale='0.90 0.90 0.90' -->
     <Transform  scale='1.0 1.0 1.0' >
@@ -93,7 +102,7 @@
             </Shape>
         </Transform>
         <!-- Rampa de Acesso -->           
-        <Transform translation='8.3 -2.26 5.0' rotation = '1.0 0.0 0.0  0.0'>
+        <Transform translation='8.3 -2.26 6.0' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -101,7 +110,7 @@
                     </Material>
                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.0 0.13 10.0'></Box>
+                <Box size='3.0 0.13 8.0'></Box>
             </Shape>
         </Transform>
         <!-- Rampa de Acesso teto -->           
@@ -223,7 +232,7 @@
                 <Box size='16.5 0.13 1.0'></Box>
             </Shape>
         </Transform>
-        <!-- Grade -->
+        <!-- Grade da frente-->
         <Transform translation='8.0 -1.5 12.3997' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
@@ -235,7 +244,7 @@
                 <Box size='16.5 1.230 0.15'></Box>
             </Shape>
         </Transform>
-        <!-- Grade 2 -->
+        <!-- Grade Superior-->
         <Transform translation='8.27 0.3 4.0997' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
@@ -247,8 +256,8 @@
                 <Box size='3.05 0.530 0.15'></Box>
             </Shape>
         </Transform>
-         <!-- Grade 3 -->
-        <Transform translation='6.9 -0.8 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+         <!-- Grade Esquerda -->
+        <Transform translation='6.9 -0.92 6.7997' rotation = '0.0 5.0 0.0  1.6'>
             <Shape>
                 <Appearance>
                     <Material transparency  = '0.5' >
@@ -259,8 +268,8 @@
                 <Box size='5.50 2.530 0.15'></Box>
             </Shape>
         </Transform>
-          <!-- Grade 4 -->
-        <Transform translation='9.8 -0.8 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+          <!-- Grade Direita -->
+        <Transform translation='9.8 -0.92 6.7997' rotation = '0.0 5.0 0.0  1.6'>
             <Shape>
                 <Appearance>
                     <Material transparency  = '0.5' >
@@ -271,6 +280,32 @@
                 <Box size='5.50 2.530 0.15'></Box>
             </Shape>
         </Transform>
+
+        <!-- Parade atras da grade direita-->
+        <!-- 1 -->
+        <Transform translation='9.79534 -2.0388 6.29817' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material>                    
+                    </Material>
+                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='4.10 0.5  0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- 2 -->
+         <Transform translation='9.77262 -1.31002 4.78269' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material>                    
+                    </Material>
+                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.10 1.0  0.02'></Box>
+            </Shape>
+        </Transform>
+
+
         <!-- Barra sobre a grade -->
          <Transform translation='8.0 -0.9 12.3997' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
@@ -297,6 +332,17 @@
             </Shape>
         </Transform>
         
+         <Transform translation='8.00143 -3.13 6.58684' >
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.1 12.0'></Box>
+            </Shape>
+        </Transform>
 
     </Transform>
   </Scene>
