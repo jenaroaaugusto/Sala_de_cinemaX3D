@@ -65,7 +65,10 @@
         <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
             <Inline url='"frente.x3d"'></Inline>
         </Transform>
-
+        <!-- tela cinema-->
+        <Transform translation = '-19.5 6.0 19.5'  scale='4.5 3 3'>
+            <Inline url='"Tela_cinema.x3d"'></Inline>
+        </Transform>
         <!-- Parte externa  -->
 
        <!-- Parede fim esquerdo -->

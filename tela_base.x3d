@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding ='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.0.dtd">
+  <X3D profile='Immersive' version='3.0'>
+  # A Cylinder
+  <head>
+  </head>
+  <Scene>
+    <!-- <Viewpoint orientation="0 1 0 1.57" position="1.73 5.11 5"/>
+    <NavigationInfo DEF='HumanStyle' type='"WALK" "ANY"' transitionType='"ANIMATE"' transitionTime='1.0' speed="5" avatarSize='2 3 2' /> -->
+    <Background skyColor="1 1 1"/>
+    <Transform scale='0.2 0.2 0.2 '>
+  
+        <Transform translation='7.8347 0.24949 18.5'> 
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.1 1.0 3.0'></Box>
+            </Shape>
+
+        </Transform>
+
+                <Transform translation = '5.0 -0.2 4.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='10.0 0.1 10.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 2 -->
+          <Transform translation = '11.0 -0.2 4.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='10.0 0.1 10.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 3 -->
+          <Transform translation = '8.0 -0.2 10.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.2 0.1 5.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Piso 4 -->
+        <Transform translation = '8.0 -0.2 15.0' >
+           <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"carpete_bege.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.2 0.1 5.0'></Box>
+            </Shape>
+        </Transform>
+
+
+        
+    </Transform>
+  </Scene>
+  </X3D>

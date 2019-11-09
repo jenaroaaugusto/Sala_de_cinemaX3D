@@ -1,340 +1,353 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
-<X3D profile='Immersive' version='3.0' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+<?xml version='1.0' encoding ='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.0.dtd">
+  <X3D profile='Immersive' version='3.0'>
+  # A Cylinder
   <head>
-    <component name='EnvironmentalEffects' level='3'/>
-    <meta name='comment' content='World of Titania'/>
-    <meta name='created' content='Fri, 08 Nov 2019 22:55:09 GMT'/>
-    <meta name='creator' content='jenaro'/>
-    <meta name='generator' content='Titania V4.6.2, http://titania.create3000.de'/>
-    <meta name='identifier' content='file:///home/jenaro/Documentos/RV/Sala_de_cinemaX3D/Parte_interna_integracao_2.x3d'/>
-    <meta name='modified' content='Fri, 08 Nov 2019 22:55:09 GMT'/>
   </head>
   <Scene>
-    <WorldInfo
-        title='Parte_interna_integracao_2'>
-      <MetadataSet DEF='Titania'
-          name='Titania'
-          reference='http://titania.create3000.de'>
-        <MetadataSet DEF='Selection' containerField='value'
-            name='Selection'
-            reference='http://titania.create3000.de'>
-          <MetadataBoolean DEF='selectGeometry' containerField='value'
-              name='selectGeometry'
-              reference='http://titania.create3000.de'
-              value='false'/>
-        </MetadataSet>
-        <MetadataSet DEF='Page' containerField='value'
-            name='Page'
-            reference='http://titania.create3000.de'>
-          <MetadataInteger DEF='activeView' containerField='value'
-              name='activeView'
-              reference='http://titania.create3000.de'
-              value='1'/>
-          <MetadataInteger DEF='multiView' containerField='value'
-              name='multiView'
-              reference='http://titania.create3000.de'
-              value='0'/>
-        </MetadataSet>
-      </MetadataSet>
-    </WorldInfo>
-    <Viewpoint DEF='LookAtHouse'
-        position='8 -1 10'/>
-    <Background
-        skyColor='1 1 1'/>
-    <Transform>
-      <Transform>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='0 -1.2 3'>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='0 -2.2 6'>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='6 0 0'>
-        <Inline
-            url='"sala_de_cinema_2.x3d"'/>
-      </Transform>
-      <Transform
-          translation='11 0 0'>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='11 -1.2 3'>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='11 -2.2 6'>
-        <Inline
-            url='"sala_de_cinema_10.x3d"'/>
-      </Transform>
-      <Transform
-          translation='5.6 -0.81 5.5'
-          rotation='1 0 0 0.349066'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='2.5 0.12 12.1'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='11.04 -0.81 5.5'
-          rotation='1 0 0 0.349066'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='2.5 0.12 11.5'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.3 -2.26 6'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='3 0.13 8'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.25 -0.2 3'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='3 0.02 2.3'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.23 -0.1 4.15'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='2.9 0.3 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.23 -0.3 3'>
-        <Shape>
-          <Appearance>
-            <Material/>
-          </Appearance>
-          <Cone
-              height='0.1'
-              bottomRadius='0.05'/>
-        </Shape>
-        <SpotLight
-            location='0 -0.1 0'
-            direction='0 -1 0'/>
-      </Transform>
-      <Transform
-          translation='6.8 -1.66 2.7'
-          rotation='0 1 0 1.5708'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='3 3 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='6.9 -1 3'
-          rotation='0 1 0 1.5708'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"joker.jpg"'/>
-          </Appearance>
-          <Box
-              size='1 1 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='9.76 -1.66 2.7'
-          rotation='0 1 0 1.5708'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='3 3 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='9.75 -1 3'
-          rotation='0 1 0 1.5708'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"exterminador.jpg"'/>
-          </Appearance>
-          <Box
-              size='1 1 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8 -2.25 11'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira_escura.jpg"'/>
-          </Appearance>
-          <Box
-              size='16.5 0.13 3'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8 1.15 0'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='16.5 0.13 1'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8 -1.5 12.3997'>
-        <Shape>
-          <Appearance>
-            <Material
-                transparency='0.5'/>
-          </Appearance>
-          <Box
-              size='16.5 1.23 0.15'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.27 0.3 4.0997'>
-        <Shape>
-          <Appearance>
-            <Material
-                transparency='0.5'/>
-          </Appearance>
-          <Box
-              size='3.05 0.53 0.15'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='6.9 -0.92 6.7997'
-          rotation='0 5 0 1.6'>
-        <Shape>
-          <Appearance>
-            <Material
-                transparency='0.5'/>
-          </Appearance>
-          <Box
-              size='5.5 2.53 0.15'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='6.9 -1.5 6.7997'
-          rotation='0 5 0 1.6'>
-        <Shape>
-          <Appearance>
-            <Material/>
-          </Appearance>
-          <Box
-              size='5.5 1.95 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='9.8 -0.92 6.7997'
-          rotation='0 5 0 1.6'>
-        <Shape>
-          <Appearance>
-            <Material
-                transparency='0.5'/>
-          </Appearance>
-          <Box
-              size='5.5 2.53 0.15'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='9.8 -1.5 6.7997'
-          rotation='0 5 0 1.6'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='5.5 1.95 0.02'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8 -0.9 12.3997'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='16.5 0.1 0.25'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8 -2.64 12.45'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='16.5 1 0.15'/>
-        </Shape>
-      </Transform>
-      <Transform
-          translation='8.00143 -3.13 6.58684'>
-        <Shape>
-          <Appearance>
-            <Material/>
-            <ImageTexture
-                url='"madeira.jpg"'/>
-          </Appearance>
-          <Box
-              size='16.5 0.1 12'/>
-        </Shape>
-      </Transform>
+<!-- 3.14 -->
+<!-- <Viewpoint DEF='LookAtHouse'
+    position='8 -1 10'
+    orientation='0 1 0 0'/> -->
+    <!-- <NavigationInfo
+        type='"WALK", "ANY"'
+        avatarSize='0.25, 1.6, 0.75'
+        speed='1.0'
+        headlight='true'/> -->
+    <Background skyColor="1 1 1"/>
+    <!-- scale='0.90 0.90 0.90' -->
+    <Transform  scale='1.0 1.0 1.0' >
+    
+    <!-- Lado esquerdo -->
+        <Transform translation = '0.0 0.0  0.0'>
+            <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+        <Transform translation = '0.0 -1.2  3.0'>
+            <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+         <Transform translation = '0.0 -2.2  6.0'>
+        <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+
+        
+  
+
+        <!-- Central -->
+        <Transform translation = '6.0 0.0  0.0'>
+            <Inline url='"sala_de_cinema_2.x3d"'></Inline>
+        </Transform>
+     
+
+        <!-- Lado Direito -->
+        <Transform translation = '11.0 0.0  0.0'>
+            <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+        <Transform translation = '11.0 -1.2  3.0'>
+            <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+         <Transform translation = '11.0 -2.2  6.0'>
+        <Inline url='"sala_de_cinema_10.x3d"'></Inline>
+        </Transform>
+
+
+        <!-- Parade lado esquerdo -->
+        <!-- <Transform translation='-0.2 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='6.0 0.12 13.0'></Box>
+            </Shape>
+        </Transform> -->
+        <!-- Parade lado direito -->
+        <!-- <Transform translation='16.3 -0.2 6.0' rotation = '0.0 0.0 1.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='6.0 0.12 13.0'></Box>
+            </Shape>
+        </Transform> -->
+           <!-- Rampa lado esquerdo -->
+        <Transform translation='5.6 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                   <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='2.5 0.12 12.1'></Box>
+            </Shape>
+        </Transform>
+        
+
+        <!-- Rampa lado direito -->
+        <Transform translation='11.0 -0.81 5.5' rotation = '1.0 0.0 0.0  0.349066'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='2.5 0.12 11.5'></Box>
+            </Shape>
+        </Transform>
+        <!-- Rampa de Acesso -->           
+        <Transform translation='8.3 -2.26 6.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 0.13 8.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Rampa de Acesso teto -->           
+        <Transform translation='8.25 -0.2 3.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 0.02 2.3'></Box>
+            </Shape>
+        </Transform>
+
+           <!-- Rampa de Acesso teto ponta-->           
+        <Transform translation='8.23 -0.1 4.15' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='2.9 0.3 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Luz Rampa -->
+        <Transform translation='8.23 -0.3 3.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Cone height='0.1' bottomRadius='0.05'></Cone>
+               
+            </Shape>
+             <SpotLight
+                    location = '0.0 -0.1 0.0'
+                    direction = '0.0 -1.0 0.0'
+                    intensity = '1.0'
+                    color = '1.0 1.0 1.0'
+                ></SpotLight>
+                <!-- color = '1.0 1.0 1.0' -->
+        </Transform>
+        <!-- Parede esquerda rampa -->
+        <Transform translation='6.8 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 3.0 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Este Ovo -->
+        <Transform translation='6.9 -1.0 3.0' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"joker.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+
+        <!-- Parede Direito rampa -->
+        <Transform translation='9.76 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='3.0 3.0 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Este Ovo -->
+        <Transform translation='9.75 -1.0 3.0' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"exterminador.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+
+         <!-- Base da escadas -->
+        <Transform translation='8.0 -2.25 11.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira_escura.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.13 3.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Topo da escadas -->
+        <Transform translation='8.0 1.15 0.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.13 1.0'></Box>
+            </Shape>
+        </Transform>
+        <!-- Grade da frente-->
+        <Transform translation='8.0 -1.5 12.3997' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='16.5 1.230 0.15'></Box>
+            </Shape>
+        </Transform>
+        <!-- Grade Superior-->
+        <Transform translation='8.27 0.3 4.0997' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='3.05 0.530 0.15'></Box>
+            </Shape>
+        </Transform>
+         <!-- Grade Esquerda -->
+        <Transform translation='6.9 -0.92 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='5.50 2.530 0.15'></Box>
+            </Shape>
+        </Transform>
+        <!-- Grade Interna esquerda  -->
+        <Transform translation='6.9 -1.20 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                    
+                </Appearance>
+                <Box size='5.50 1.95 0.02'></Box>
+            </Shape>
+        </Transform>
+          <!-- Grade Direita -->
+        <Transform translation='9.8 -0.92 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material transparency  = '0.5' >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <Box size='5.50 2.530 0.15'></Box>
+            </Shape>
+        </Transform>
+            <!-- Grade interna direita -->
+         <Transform translation='9.8 -1.20 6.7997' rotation = '0.0 5.0 0.0  1.6'>
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='5.50 1.95 0.02'></Box>
+            </Shape>
+        </Transform>
+
+        <!-- Parade atras da grade direita-->
+        <!-- 1 -->
+
+
+        <!-- Barra sobre a grade -->
+         <Transform translation='8.0 -0.9 12.3997' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.1 0.25'></Box>
+            </Shape>
+        </Transform>
+        <!-- Base do andar frontal-->
+        <!-- rotation = '1.0 0.0 0.0  0.698132' -->
+          <Transform translation='8.0 -2.64 12.45' >
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 1.0 0.15'></Box>
+            </Shape>
+        </Transform>
+        
+         <Transform translation='8.00143 -3.13 6.58684' >
+            <Shape>
+                <Appearance>
+                    <Material  >
+                        
+                    </Material>
+                    <ImageTexture url='"madeira.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='16.5 0.1 12.0'></Box>
+            </Shape>
+        </Transform>
+
     </Transform>
   </Scene>
-</X3D>
+  </X3D>

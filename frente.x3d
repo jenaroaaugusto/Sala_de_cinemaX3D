@@ -2810,10 +2810,139 @@
                 <Box size = '0.25 23.0 60.25 '></Box>
             </Shape>
         </Transform>
+        <Transform translation = '16.75 11 -30.75'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '0.05 23.0 60.25 '></Box>
+            </Shape>
+        </Transform>
+         <Transform translation = '16.6 2.8 -30.75'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.9 0.9 0.9'/>
+                </Appearance>
+                <Box size = '0.25 8.0 60.25 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.75 11 -30.75'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '0.05 23.0 60.25 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 2.8 -30.75'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.9 0.9 0.9'/>
+                </Appearance>
+                <Box size = '0.25 8 60.25 '></Box>
+            </Shape>
+        </Transform>
         <Transform translation = '0 11 -61.0'>
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.8 0.98 0.8'/>
+                </Appearance>
+                <Box size = '33.8 23.0 0.25 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-1 2 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '24 5.0 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.55 2 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '0.5 5.0 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-1 4.625 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"madeirapisopalco.jpg""madeirapisopalco.jpg"'/> 
+                </Appearance>
+                <Box size = '24 0.25 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.55 4.625 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"madeirapiso.jpg""madeirapiso.jpg"'/>
+                </Appearance>
+                <Box size = '0.5 0.25 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-14.675 4.625 -59.375'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"madeirapisoescada.jpg""madeirapisoescada.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 0.25 2.750 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-14.675 0.2 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 0.9 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-14.675 1.2 -58.050'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 5 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-14.675 2.2 -58.350'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 4 '></Box>
+            </Shape>
+        </Transform>
+         <Transform translation = '-14.675 3.2 -58.650'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 3 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-14.675 4 -58.950'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 2 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '0 11 -60.8'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"cortinapreta.jpg""cortinapreta.jpg"'/> 
                 </Appearance>
                 <Box size = '33.8 23.0 0.25 '></Box>
             </Shape>
@@ -2825,6 +2954,87 @@
                     <Material diffuseColor='0.8 0.98 0.8'/>
                 </Appearance>
                 <Box size = '50.0 0.05 80 '></Box>
+            </Shape>
+        </Transform>
+         <Transform translation = '14.4 -0.6 -58.550'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"carpete_bege.jpg""carpete_bege.jpg"'/> 
+                </Appearance>
+                <Box size = '5 0.05 6 '></Box>
+            </Shape>
+        </Transform>
+        <!-- Escada direita-->
+        <Transform translation = '12.675 0.2 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 0.9 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '12.675 1.2 -58.050'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 5 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '12.675 2.2 -58.350'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 4 '></Box>
+            </Shape>
+        </Transform>
+         <Transform translation = '12.675 3.2 -58.650'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 3 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '12.675 4 -58.950'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"granito.jpg""granito.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 1 2 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '12.675 4.625 -59.375'>
+            <Shape>
+                <Appearance>
+                    <Material />
+                    <ImageTexture  url='"madeirapisoescada.jpg""madeirapisoescada.jpg"'/> 
+                </Appearance>
+                <Box size = '3.4 0.25 2.750 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '14.55 4.625 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"madeirapiso.jpg""madeirapiso.jpg"'/>
+                </Appearance>
+                <Box size = '0.5 0.25 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '14.55 2 -57.750'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '0.5 5.0 6 '></Box>
             </Shape>
         </Transform>
     </Scene>
