@@ -6,8 +6,8 @@
   <head>
   </head>
   <Scene>
-     <Viewpoint orientation="0 1 0 1.57" position="1.62 0.11 -2.47"/>
-    <NavigationInfo DEF='HumanStyle' type='"WALK" "ANY"' transitionType='"ANIMATE"' transitionTime='1.0' speed="2" avatarSize='0.1 0.2 0.1' /> 
+    <!-- <Viewpoint orientation="0 1 0 1.57" position="1.73 5.11 5"/>
+    <NavigationInfo DEF='HumanStyle' type='"WALK" "ANY"' transitionType='"ANIMATE"' transitionTime='1.0' speed="5" avatarSize='2 3 2' /> -->
     <Background skyColor="1 1 1"/>
     <Transform scale='0.2 0.2 0.2 '>
     <!-- <Transform translation = '6.5 0.0  1.0'> -->
@@ -58,7 +58,7 @@
 
 
         <!-- Andar Superior  -->
-          <Transform translation = '0.05 7.5 -7.0' scale='0.98 0.90 0.91'  >
+          <Transform translation = '0.5 7.5 -7.0' scale='0.91 0.90 0.91'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
         </Transform>    
         <!-- Frente -->
