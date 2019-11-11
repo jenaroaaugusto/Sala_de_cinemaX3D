@@ -62,9 +62,9 @@
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
         </Transform>    
         <!-- Frente -->
-        <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
+        <!--  <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
             <Inline url='"frente.x3d"'></Inline>
-        </Transform>
+        </Transform> Frente -->
         <!-- tela cinema-->
         <Transform translation = '-19.5 6.0 19.5'  scale='4.5 3 3'>
             <Inline url='"Tela_cinema.x3d"'></Inline>
@@ -93,6 +93,55 @@
                     <ImageTexture url='"placa-ceramica-branca.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='6.00 4.0 0.2'></Box>
+            </Shape>
+        </Transform>
+
+        <!--Baner Baixo 1-->
+        <Transform translation= '8.0 1.8 -1.1' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"diego.jpeg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.3 1.5 0.05'></Box>
+            </Shape>
+        </Transform>
+        <!--Baner Baixo 2-->
+        <Transform translation= '10.0 1.8 -1.1' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"malevola.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.3 1.5 0.05'></Box>
+            </Shape>
+        </Transform>
+           <!--Baner Baixo 3-->
+        <Transform translation= '6.0 1.8 -1.1' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"doutor.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.3 1.5 0.05'></Box>
+            </Shape>
+        </Transform>
+               <!--Baner Baixo 4-->
+        <Transform translation= '14.5 1.8 -1.1' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"frozendiego.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.3 1.5 0.05'></Box>
             </Shape>
         </Transform>
 
