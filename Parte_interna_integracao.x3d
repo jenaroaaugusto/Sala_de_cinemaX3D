@@ -115,7 +115,7 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"malevola.jpg"'></ImageTexture>
+                    <ImageTexture url='"malevola2.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='1.3 1.5 0.05'></Box>
             </Shape>
@@ -127,12 +127,12 @@
                     <Material >
                         
                     </Material>
-                    <ImageTexture url='"doutor.jpg"'></ImageTexture>
+                    <ImageTexture url='"doutor2.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='1.3 1.5 0.05'></Box>
             </Shape>
         </Transform>
-               <!--Baner Baixo 4-->
+         <!--Baner Baixo 4-->
         <Transform translation= '14.5 1.8 -1.1' >
             <Shape>
                 <Appearance>
@@ -140,6 +140,18 @@
                         
                     </Material>
                     <ImageTexture url='"frozendiego.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.3 1.5 0.05'></Box>
+            </Shape>
+        </Transform>
+        <!--Baner Baixo 5-->
+        <Transform translation= '1.5 1.8 -1.1' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"branquelas.jpg"'></ImageTexture>
                 </Appearance>
                 <Box size='1.3 1.5 0.05'></Box>
             </Shape>
