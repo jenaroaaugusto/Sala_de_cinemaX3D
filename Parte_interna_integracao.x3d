@@ -58,13 +58,13 @@
 
 
         <!-- Andar Superior  -->
-          <Transform translation = '0.5 7.5 -7.0' scale='0.91 0.90 0.91'  >
+          <Transform translation = '0.5 6.5 -7.0' scale='0.91 0.90 0.91'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
         </Transform>    
         <!-- Frente -->
-        <!--  <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
+         <Transform translation = '7.9 0.0 -8.0' rotation = '0.0 1.0 0.0 3.14159' scale='0.482 0.46 0.46'>
             <Inline url='"frente.x3d"'></Inline>
-        </Transform> Frente -->
+        </Transform>
         <!-- tela cinema-->
         <Transform translation = '-19.5 6.0 19.5'  scale='4.5 3 3'>
             <Inline url='"Tela_cinema.x3d"'></Inline>

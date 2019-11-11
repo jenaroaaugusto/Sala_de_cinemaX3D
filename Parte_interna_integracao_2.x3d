@@ -110,11 +110,11 @@
                     </Material>
                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.0 0.13 8.0'></Box>
+                <Box size='3.0 0.13 7.0'></Box>
             </Shape>
         </Transform>
         <!-- Rampa de Acesso teto -->           
-        <Transform translation='8.25 -0.2 3.0' rotation = '1.0 0.0 0.0  0.0'>
+        <Transform translation='8.25 -0.2 2.9' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -122,7 +122,7 @@
                     </Material>
                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='3.0 0.02 2.3'></Box>
+                <Box size='3 0.02 3'></Box>
             </Shape>
         </Transform>
 
@@ -159,7 +159,8 @@
                 <!-- color = '1.0 1.0 1.0' -->
         </Transform>
         <!-- Parede esquerda rampa -->
-        <Transform translation='6.8 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+        
+        <Transform translation='6.8 -1.66 2.9' rotation = '0.0 1.0 0.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -171,7 +172,7 @@
             </Shape>
         </Transform>
         <!-- Este Ovo -->
-        <Transform translation='6.9 -1.0 3.0' rotation = '0.0 1.0 0.0  1.5708'>
+       <Transform translation='6.9 -1.0 2.0' rotation = '0.0 1.0 0.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -184,7 +185,7 @@
         </Transform>
 
         <!-- Parede Direito rampa -->
-        <Transform translation='9.76 -1.66 2.7' rotation = '0.0 1.0 0.0  1.5708'>
+        <Transform translation='9.76 -1.66 2.9' rotation = '0.0 1.0 0.0  1.5708'>
             <Shape>
                 <Appearance>
                     <Material >
@@ -336,7 +337,7 @@
             </Shape>
         </Transform>
         
-         <Transform translation='8.00143 -3.13 6.58684' >
+         <Transform translation='8.00143 -3.13 7.1' >
             <Shape>
                 <Appearance>
                     <Material  >
@@ -344,9 +345,11 @@
                     </Material>
                     <ImageTexture url='"madeira.jpg"'></ImageTexture>
                 </Appearance>
-                <Box size='16.5 0.1 12.0'></Box>
+                <Box size='13.3 0.1 11.4'></Box>
             </Shape>
         </Transform>
+        
+
 
     </Transform>
   </Scene>
