@@ -2483,7 +2483,7 @@
                 <Box size = '0.05 6 0.15 '></Box>
             </Shape>
         </Transform>
-<!-- Porta Central Direita-->
+<!-- Porta Central Direita--><!--
         <Transform translation = '1.4 0.9 -1.325'>
             <Shape>
                 <Appearance>
@@ -2638,7 +2638,7 @@
             </Shape>
         </Transform>
 
-
+-->
 <!-- Porta Central Esquerda-->
         <Transform translation = '-0.05 1.925 -1.325'>
             <Shape>
@@ -2823,7 +2823,7 @@
                 <Appearance>
                     <Material diffuseColor='0.9 0.9 0.9'/>
                 </Appearance>
-                <Box size = '0.25 8.0 60.25 '></Box>
+                <Box size = '0.25 8.0 61.25 '></Box>
             </Shape>
         </Transform>
         <Transform translation = '-16.75 11 -30.75'>
@@ -2839,7 +2839,7 @@
                 <Appearance>
                     <Material diffuseColor='0.9 0.9 0.9'/>
                 </Appearance>
-                <Box size = '0.25 8 60.25 '></Box>
+                <Box size = '0.25 8 61.25 '></Box>
             </Shape>
         </Transform>
         <Transform translation = '0 11 -61.0'>
@@ -3035,6 +3035,104 @@
                     <Material diffuseColor='0.21 0.37 0.16'/>
                 </Appearance>
                 <Box size = '0.5 5.0 6 '></Box>
+            </Shape>
+        </Transform>
+         <Transform translation = '16.6 14.675 -54.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '16.6 14.675 -42.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '16.6 14.675 -30.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '16.6 14.675 -18.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '16.6 18.5 -6.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo2.jpg""caixadeovo2.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 8 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 14.675 -54.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 14.675 -42.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 14.675 -30.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 14.675 -18.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo.jpg""caixadeovo.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 15.7 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '-16.6 18.5 -6.950'>
+            <Shape>
+                <Appearance>
+                    <Material/>
+                    <ImageTexture  url='"caixadeovo2.jpg""caixadeovo2.jpg"'/>
+                </Appearance>
+                <Box size = '0.25 8 6 '></Box>
+            </Shape>
+        </Transform>
+        <Transform translation = '0 16.4 -1.250'>
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0.21 0.37 0.16'/>
+                </Appearance>
+                <Box size = '34 12 0.25'></Box>
             </Shape>
         </Transform>
     </Scene>
