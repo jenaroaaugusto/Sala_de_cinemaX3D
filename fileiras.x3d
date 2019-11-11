@@ -35,7 +35,7 @@
         </Transform>
          <Transform translation = '8.040 0.057  0.0'>
             <Inline url='"Cadeira_um_encosto.x3d"'></Inline>
-        </Transform> -->
+        </Transform>--> 
     <!-- </Transform> -->
   </Scene>
   </X3D>
