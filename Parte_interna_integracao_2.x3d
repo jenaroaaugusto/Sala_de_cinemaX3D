@@ -113,6 +113,138 @@
                 <Box size='3.0 0.13 7.0'></Box>
             </Shape>
         </Transform>
+        <!-- Banner Saida 1 -->
+        <Transform translation='6.0 -1.3 0.1' rotation = '0.0 1.0 0.0  0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"passaros.jpeg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+         <!-- Banner Saida 2 -->
+        <Transform translation='4.0 -1.3 0.1' rotation = '0.0 1.0 0.0  0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"dora-e-a-cidade-perdida-1-260x385.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.0 0.02'></Box>
+            </Shape>
+        </Transform>
+          <!-- Banner Saida Melhor -->
+        <Transform translation='-0.7 -1.4 0.7' rotation = '0.0 1.0 0.0  1.5708'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"bad.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='1.0 1.5 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Luz 0 esquerda -->
+        <Transform translation='0.0 0.1 0.7' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <!-- <Cone height='0.1' bottomRadius='0.05'></Cone> -->
+               
+            </Shape>
+             <SpotLight
+                    location = '0.0 0.0 0.0'
+                    direction = '0.0 -1.0 0.0'
+                    intensity = '1.0'
+                    color = '1.0 1.0 1.0'
+                ></SpotLight>
+        </Transform>
+        
+        <!-- Luz 1  -->
+        <Transform translation='7.0 0.1 0.7' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <!-- <Cone height='0.1' bottomRadius='0.05'></Cone> -->
+               
+            </Shape>
+             <SpotLight
+                    location = '0.0 -0.0 0.0'
+                    direction = '0.0 -1.0 0.0'
+                    intensity = '1.0'
+                    color = '1.0 1.0 1.0'
+                ></SpotLight>
+        </Transform>
+
+                <!-- Luz 3  -->
+        <Transform translation='8.0 0.1 1.0' rotation = '1.0 0.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    
+                </Appearance>
+                <!-- <Cone height='0.1' bottomRadius='0.05'></Cone> -->
+               
+            </Shape>
+             <SpotLight
+                    location = '0.0 -0.0 0.0'
+                    direction = '0.0 -1.0 0.0'
+                    intensity = '1.0'
+                    color = '1.0 1.0 1.0'
+                ></SpotLight>
+        </Transform>
+
+        <!-- Placa de saida Esquerda-->           
+        <Transform translation='7.25 -1.0 0.1' rotation = '0.0 1.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa_saida esquerda.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='0.75 0.25 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Placa de saida Direita-->           
+        <Transform translation='9.25 -1.0 0.1' rotation = '0.0 1.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"placa_saida.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='0.75 0.25 0.02'></Box>
+            </Shape>
+        </Transform>
+        <!-- Saida -->
+        <Transform translation='8.25 -0.35 2.5' rotation = '0.0 1.0 0.0  0.0'>
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"saida.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='0.02 0.25 0.65'></Box>
+            </Shape>
+        </Transform>
         <!-- Rampa de Acesso teto -->           
         <Transform translation='8.25 -0.2 2.9' rotation = '1.0 0.0 0.0  0.0'>
             <Shape>

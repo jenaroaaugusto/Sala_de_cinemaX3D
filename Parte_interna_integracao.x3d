@@ -156,7 +156,18 @@
                 <Box size='1.3 1.5 0.05'></Box>
             </Shape>
         </Transform>
-
+        <!-- STAR-->
+        <Transform translation= '8.0 1.9 -0.9' >
+            <Shape>
+                <Appearance>
+                    <Material >
+                        
+                    </Material>
+                    <ImageTexture url='"rise-of-skywalker.jpg"'></ImageTexture>
+                </Appearance>
+                <Box size='2.3 2.5 0.05'></Box>
+            </Shape>
+        </Transform>
          <!-- Parede fim direito-->
         <Transform translation = '14.5 1.8  -1.0'>
            <Shape>

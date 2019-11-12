@@ -38,8 +38,8 @@
       <Shape>
         <Appearance>
           <Material/>
-          <!--<MovieTexture DEF='VTS' loop="true"
-            url="filme.mpg"/> -->
+          <!-- <MovieTexture DEF='VTS' loop="true"
+            url='"filme.mpg"'/> -->
           </Appearance>
           <Rectangle2D
             size='3.23 2'/>
