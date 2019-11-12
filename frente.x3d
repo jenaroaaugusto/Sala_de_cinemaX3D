@@ -2483,7 +2483,8 @@
                 <Box size = '0.05 6 0.15 '></Box>
             </Shape>
         </Transform>
-<!-- Porta Central Direita--><!--
+<!-- Porta Central Direita-->
+    <Transform translation= '1.5 0 -4' rotation= '0 -1 0 1.57'> 
         <Transform translation = '1.4 0.9 -1.325'>
             <Shape>
                 <Appearance>
@@ -2637,8 +2638,8 @@
                 <Box size = '0.15 0.15 0.15 '></Box>
             </Shape>
         </Transform>
+    </Transform>
 
--->
 <!-- Porta Central Esquerda-->
         <Transform translation = '-0.05 1.925 -1.325'>
             <Shape>
@@ -3468,7 +3469,7 @@
                 <Box size='3.6 0.1 10.1'></Box>
             </Shape>
         </Transform>
-        <Transform translation='15 9.6 -10.050' >
+        <Transform translation='15 9.8 -10.350' >
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.21 0.37 0.16'/>
@@ -3476,12 +3477,12 @@
                 <Box size='3.6 3.4 0.2'></Box>
             </Shape>
         </Transform>
-        <Transform translation='13.4 9.6 -7.550' >
+        <Transform translation='13.4 9.6 -7.650' >
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.21 0.37 0.16'/>
                 </Appearance>
-                <Box size='0.2 3.4 4.6'></Box>
+                <Box size='0.2 3.4 5.2'></Box>
             </Shape>
         </Transform>
          <Transform translation='13.4 11.4 -7.650' rotation = '-1.0 0.0 0.0  0.449066' >
@@ -3500,7 +3501,7 @@
                 <Box size='0.2 2 1'></Box>
             </Shape>
         </Transform>
-         <Transform translation='-15 9.6 -10.050'>
+         <Transform translation='-15 9.8 -10.350'>
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.21 0.37 0.16'/>
@@ -3508,12 +3509,12 @@
                 <Box size='3.6 3.4 0.2'></Box>
             </Shape>
         </Transform>
-         <Transform translation='-13.4 9.6 -7.550' >
+         <Transform translation='-13.4 9.6 -7.650' >
             <Shape>
                 <Appearance>
                     <Material diffuseColor='0.21 0.37 0.16'/>
                 </Appearance>
-                <Box size='0.2 3.4 4.6'></Box>
+                <Box size='0.2 3.4 5.2'></Box>
             </Shape>
         </Transform>
          <Transform translation='-13.4 11.4 -7.650' rotation = '-1.0 0.0 0.0  0.449066' >
@@ -3532,5 +3533,26 @@
                 <Box size='0.2 2 1'></Box>
             </Shape>
         </Transform>
+         <Transform translation='0 7.85 3.5' >
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor='0 0 0'/>
+                </Appearance>
+                <Text string='"CINE BUG"'>
+                    <FontStyle DEF='testFontStyle' justify='"MIDDLE" "MIDDLE"' size='2.0'/>
+                </Text>
+            </Shape>
+        </Transform>
+         <Transform translation='-6.5 3 0.8'  rotation = '0.0 1.0 0.0  0.749066'>
+      <Shape>
+        <Appearance>
+          <Material/>
+          <MovieTexture DEF='VTS' loop="true"
+            url="gif.mpg"/> 
+          </Appearance>
+          <Rectangle2D
+            size='2 3'/>
+      </Shape>
+    </Transform>
     </Scene>
 </X3D>

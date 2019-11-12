@@ -6,8 +6,8 @@
   <head>
   </head>
   <Scene>
-    <!-- <Viewpoint orientation="0 1 0 1.57" position="1.73 5.11 5"/>
-    <NavigationInfo DEF='HumanStyle' type='"WALK" "ANY"' transitionType='"ANIMATE"' transitionTime='1.0' speed="5" avatarSize='2 3 2' /> -->
+    <Viewpoint orientation="0 1 0 1.57" position="1.62 0.11 -2.47"/>
+    <NavigationInfo DEF='HumanStyle' type='"WALK" "ANY"' transitionType='"ANIMATE"' transitionTime='1.0' speed="1" avatarSize='0.1 0.23 0.1' />
     <Background skyColor="1 1 1"/>
     <Transform scale='0.2 0.2 0.2 '>
     <!-- <Transform translation = '6.5 0.0  1.0'> -->
@@ -58,7 +58,7 @@
 
 
         <!-- Andar Superior  -->
-          <Transform translation = '0.5 6.5 -7.0' scale='0.91 0.90 0.91'  >
+          <Transform translation = '0.05 6.5 -7.0' scale='0.98 0.90 0.91'  >
             <Inline url='"Parte_interna_integracao_2.x3d"'></Inline>
         </Transform>    
         <!-- Frente -->
@@ -206,7 +206,7 @@
             </Shape>
         </Transform>
         <!-- Piso 1 -->
-        <Transform translation = '5.0 -0.2 4.0' >
+        <Transform translation = '5.0 -0.1 4.0' >
            <Shape>
                 <Appearance>
                     <Material >
@@ -218,7 +218,7 @@
             </Shape>
         </Transform>
         <!-- Piso 2 -->
-          <Transform translation = '11.0 -0.2 4.0' >
+          <Transform translation = '11.0 -0.1 4.0' >
            <Shape>
                 <Appearance>
                     <Material >
@@ -230,7 +230,7 @@
             </Shape>
         </Transform>
         <!-- Piso 3 -->
-          <Transform translation = '8.0 -0.2 10.0' >
+          <Transform translation = '8.0 -0.1 10.0' >
            <Shape>
                 <Appearance>
                     <Material >
@@ -242,7 +242,7 @@
             </Shape>
         </Transform>
         <!-- Piso 4 -->
-        <Transform translation = '8.0 -0.2 15.0' >
+        <Transform translation = '8.0 -0.1 15.0' >
            <Shape>
                 <Appearance>
                     <Material >
